@@ -73,6 +73,9 @@ public class Person implements Comparable<Person> {
          sset.add(new Person("Artur", 59));
          sset.add(new Person("Angela", 62));
 
-         System.out.println("\n" + sset);
+         System.out.println("\n hashcode");
+         for (Person a : sset) {
+             System.out.println(sset);
+         }
      }
 }
